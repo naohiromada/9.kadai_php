@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+legend{
+    font-size: 24px;
+}
+
+table{
+    border-collapse: collapse;
+    border: 3px solid #7facc9;
+}
+
+td, th{
+    padding: 8px 20px;
+    border: 1px solid #b7b7b7;
+}
+
+thead{
+    border-bottom: 3px solid #7facc9;
+}
+
+/* tbody{
+    border-bottom: 1px dashed #bobdbd;
+} */
+
+/* ログイン画面 */
+#login_form {
+	margin: 3em auto;
+	border: 3px solid #4267ab;
+	width: 320px;
+	border-radius: 8px;
+}
+
+.login_title {
+	margin: 0;
+	padding: 8px 0;
+	font-size: 1em;
+	text-align: center;
+	background: #4267ab;
+	color: #fff;
+}
+.login_line {
+	text-align: center;
+}
+input[type="text"], input[type="password"] {
+	padding: 6px;
+	font-size: 16px;
+}
+input[type="submit"] {
+	padding: 6px 20px;
+	border: 4px solid #ffd386;
+	border-radius: 10px;
+	background: #ff753e;
+	font-size: 20px;
+	color: #ffffff;
+}
+input[type="submit"]:hover {
+	background: #ffd386;
+}
+
+button:hover {
+	background: #ffd386;
+}
